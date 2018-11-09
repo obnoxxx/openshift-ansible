@@ -48,9 +48,9 @@ additoinally copy any existing contents from an existing hosted registry,
 specify `openshift_hosted_registry_storage_glusterfs_swapcopy=True`.
 
 **NOTE:** For each namespace that is to have access to GlusterFS volumes an
-Enpoints resource pointing to the GlusterFS cluster nodes and a corresponding
+Endpoint resource pointing to the GlusterFS cluster nodes and a corresponding
 Service resource must be created. If dynamic provisioning using StorageClasses
-is configure, these resources are created automatically in the namespaces that
+is configured, these resources are created automatically in the namespaces that
 require them. This playbook also takes care of creating these resources in the
 namespaces used for deployment.
 
